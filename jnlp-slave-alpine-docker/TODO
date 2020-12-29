@@ -1,0 +1,3 @@
+figure out a way to exeuce the container as non root (e.g. jenkins user).
+current issue: permission denied after jenkins installation on pod starting 
+$kubectl logs jenkins-0 -c init -n jenkins
