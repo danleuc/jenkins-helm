@@ -480,7 +480,7 @@ agent:
   kubernetesReadTimeout: 15
   namespace:
   image: "dnbl/jnlp-slave-alpine-docker"
-  tag: "root"
+  tag: "helm"
   workingDir: "/home/jenkins"
   customJenkinsLabels: []
   # name of the secret to be used for image pulling
